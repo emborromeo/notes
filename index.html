@@ -3,11 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style href="main.css"></style>
-    <title>Basics</title>
-    
+    <link rel="stylesheet" type="text/css" href="main.css"></style>
+    <title>Notes</title>
 </head>
 <body>
+    <h1 id="main-title">Notes</h1>
+    <div id="main-window" class="width">     
+      <textarea id="text-notes" cols="45" rows="15" placeholder="Enter text here..."></textarea>
+      <div id="btn-group">
+            <button class="button" id="save" onclick="view()">Save</button>
+            <button class="button" id="clear" onclick="clear()">Clear</button>
+            <button class="button" id="edit">Edit</button>
+            <button class="button" id="delete">Delete</button>
+
+     </div>
+     <div class="area-notes">
+         <textarea id="a1" cols="17" rows="10" disabled></textarea>
+         <textarea id="b2" cols="17" rows="10" disabled></textarea>
+         <textarea id="c3" cols="17" rows="10" wrap="hard" disabled></textarea>
+
+        
+
+     </div>
+
+    
+
+
+
+    </div>
 
 
 
