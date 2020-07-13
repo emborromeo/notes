@@ -15,6 +15,7 @@
 #text-notes{
     height: 120px; 
     left:5px;
+    outline: none;
     border: 1px solid #4d4d4d;
 }
 textarea:hover{
@@ -37,6 +38,7 @@ textarea:hover{
     border-radius: 20em;
     border: 1px solid #ff9999;
     text-align: center;
+    width: 70px;
 
 }
 .area-notes{
@@ -44,31 +46,11 @@ textarea:hover{
     margin-left: 2px;
 
 }
-#a1{
+.notes{
     background-color: #ffe6e6;
     white-space: pre;
     word-break: break-all;
     border: none;
     resize: none;
     
-}
 
-#b2{
-    background-color: #ffe6e6;
-    white-space: pre;
- 
-    border: none;
-    resize: none;
-
-
-}
-
-#c3{   
-    background-color: #ffe6e6;
-    white-space: pre;
-  
-    border: none;
-    resize: none;
-
-
-}
